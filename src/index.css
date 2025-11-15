@@ -1,0 +1,34 @@
+:root {
+  /* 🎨 Cores principais */
+  --color-primary: #ff00cc;
+  --color-secondary: #3333ff;
+  --color-accent: #00ffcc;
+  --color-warning: #ffcc00;
+  --color-orange: #ff6600;
+  --color-pink: #ff0066;
+  --color-text: #ffffff;
+  --color-background: #000000;
+
+  /* 🌈 Gradientes */
+  --gradient-primary: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  --gradient-inverse: linear-gradient(45deg, var(--color-secondary), var(--color-primary));
+  --gradient-accent: linear-gradient(45deg, var(--color-accent), var(--color-warning));
+  --gradient-orange: linear-gradient(45deg, var(--color-orange), var(--color-pink));
+
+  /* 🖋️ Fontes */
+  --font-title: 'Orbitron', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* 📐 Tamanhos */
+  --block-width: 140px;
+  --block-height: 40px;
+  --block-radius: 6px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
